@@ -37,7 +37,6 @@ from esp.program.modules import module_ext
 from esp.users.models import ESPUser
 from esp.utils.web import render_to_response
 from esp.program.models import ClassSubject, StudentAppQuestion, StudentAppReview, StudentRegistration
-from datetime import datetime
 from django.utils import timezone
 from django.views.decorators.cache import never_cache
 from esp.middleware.threadlocalrequest import get_current_request
